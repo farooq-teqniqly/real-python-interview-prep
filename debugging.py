@@ -7,6 +7,9 @@ def get_max(numbers: List[int]) -> int:
 
         >>> get_max([-1000, 400, -90000, 99999, 5454])
         99999
+
+        >>> get_max([-1, -2, -4])
+        -1
     """
     max_num = float("-inf")
 
